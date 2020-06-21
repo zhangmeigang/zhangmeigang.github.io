@@ -1,0 +1,91 @@
+*{
+  margin: 0em;
+  padding: 0em;
+}
+.header{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  background-color: blanchedalmond ;
+  position: relative;
+  padding: 1em ;
+  
+}
+.header h3{
+  font-size: x-large;
+  color: darkcyan;
+}
+
+.profile{
+  width: 70%;
+  height:90% ;
+  background: #fff;
+  margin-left: 20%;
+  
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#m-bg{
+  background: url(image/2020.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  height: 100%;
+  position: relative;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.m-font{
+  font-size: 0.4em;
+  color: black;
+}
+.layui-icon{
+  height: 150px;
+  font-size: 3em;
+  color: coral;
+}
+.m-label{
+  float: left;
+}
+.m-h3{
+  text-align: center;
+  color: black;
+  font-style: initial;
+  font-size: large;
+}
+#m-k p{
+  text-indent: 2em;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  padding: 2em 2em 3em;
+  background-color: blanchedalmond;
+}
+#footer-layui-xs3 img{
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 30%;
+}
+#footer-layui-xs3 p{
+  font-size: 1em;
+  margin-left: 25%;
+ color:white;
+}
+#footer-layui-xs9 p{
+  font-size: large;
+  margin-top: 6%;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  color: white;
+  text-align: center;
+}
+
+
