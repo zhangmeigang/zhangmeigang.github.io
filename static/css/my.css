@@ -1,0 +1,131 @@
+*{
+  margin: 0em;
+  padding: 0em;
+}
+.header{
+  width: 100%;
+<<<<<<< HEAD
+  height: 20px;
+=======
+  height: 40px;
+>>>>>>> 279f66a... 修改布局
+  text-align: center;
+  background-color: blanchedalmond ;
+  position: relative;
+  padding: 1em ;
+  
+}
+.header h3{
+  font-size: x-large;
+  color: darkcyan;
+}
+<<<<<<< HEAD
+
+.profile{
+  width: 70%;
+  height:90% ;
+  background: #fff;
+  margin-left: 50px;
+  
+=======
+.body{
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
+.profile{
+  width: 80%;
+  height:100% ;
+  background: #fff;
+  margin-left: 50px;
+  padding: 20px 0;
+>>>>>>> 279f66a... 修改布局
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#m-bg{
+  background: url(image/2020.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  position: relative;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.m-font{
+  font-size: 0.4em;
+  color: black;
+}
+.layui-icon{
+  height: 150px;
+  font-size: 3em;
+  color: coral;
+}
+<<<<<<< HEAD
+.m-label{
+  float: left;
+}
+=======
+>>>>>>> 279f66a... 修改布局
+.m-h3{
+  text-align: center;
+  color: black;
+  font-style: initial;
+  font-size: large;
+}
+<<<<<<< HEAD
+#m-k p{
+  text-indent: 2em;
+}
+=======
+>>>>>>> 279f66a... 修改布局
+.footer{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  padding: 2em 2em 3em;
+  background-color: blanchedalmond;
+}
+<<<<<<< HEAD
+#footer-layui-xs3 img{
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+#footer-layui-xs3 p{
+  font-size: 1em;
+  margin-left: 45px;
+ color:white;
+}
+#footer-layui-xs9 p{
+  font-size: large;
+  margin-top: 60px;
+  margin-left: 10px;
+  color: white;
+=======
+#footer-layui-md3 img{
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+}
+#footer-layui-md3 p{
+  font-size: large;
+  margin-left: 5px;
+ color:cornflowerblue;
+}
+#footer-layui-md9 p{
+  font-size: x-large;
+  margin-top: 60px;
+  margin-left: 1px;
+  color: black;
+>>>>>>> 279f66a... 修改布局
+  text-align: center;
+}
+
+
