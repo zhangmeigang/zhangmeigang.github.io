@@ -10,19 +10,17 @@
     <script src="static/layui/layui.js"></script>
 </head>
 <body>
+    <ul class="layui-nav" lay-filter="">
+        <li class="layui-nav-item">
+            <a href="">
+                <img class="layui-nav-img" src="static/image/04.png"/>个人简历
+            </a>
+        </li>
+    </ul>
     <div class="layui-flaid">
-        <ul class="layui-nav" lay-filter="">
-            <li class="layui-nav-item">
-                <a href="">
-                    <img class="layui-nav-img" src="static/image/04.png"/>个人简历
-                </a>
-            </li>
-        </ul>
-           
         <div class="layui-row">
-            <div id="m-bg" class="layui-col-xs3">
+            <div class="layui-col-xs3 m-bg">
                 <div class="profile">
-                   
                     <img src="static/image/DSC_100.JPG" alt=""/>
                    
                     <div class="layui-icon layui-icon-username"><br>
@@ -38,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="layui-col-xs4">
+            <!-- <div class="layui-col-xs4">
                 
                 <button type="button" class="layui-btn layui-btn-radius layui-btn-primary" style="margin-left: 40%;">
                     个性标签
@@ -66,21 +64,10 @@
                 </div>
                   
             
-                <div class="layui-collapse">
-                    <div class="layui-colla-item">
-                      <h2 class="layui-colla-title">自我评价</h2>
-                      <div id="m-k" class="layui-colla-content layui-show">
-                          <p>  我很喜欢编程，喜欢开发人员的工作状态。我会严格要求自己，会持续学习新技术
-                        来完善自己的技能。</p>
-                          <p>  我是一个善于交流的人，在工作上会和同事相处的很好。心态乐观积极，时刻保持耐心。
-                              做事认真负责。</p>
-                          <p>  我能合理的管理自己的时间，听从公司的安排。尽最大努力去完成好自己的任务。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+               
+            </div> -->
            
-                <div class="layui-col-xs5">
+                <div class="layui-col-xs9">
                     <div class="layui-collapse">
                         <div class="layui-colla-item">
                             <h2 class="layui-colla-title">学习经历</h2>
@@ -116,7 +103,7 @@
                                 </table>
                             </div>
                         </div>
-                    
+                    </div>
 
                     <div class="layui-collapse">
                         <div class="layui-colla-item">
@@ -152,10 +139,20 @@
                             </div>
                         </div>
                     </div>
+                    <div class="layui-collapse">
+                        <div class="layui-colla-item">
+                          <h2 class="layui-colla-title">自我评价</h2>
+                          <div id="m-k" class="layui-colla-content layui-show">
+                              <p>  我很喜欢编程，喜欢开发人员的工作状态。我会严格要求自己，会持续学习新技术
+                            来完善自己的技能。</p>
+                              <p>  我是一个善于交流的人，在工作上会和同事相处的很好。心态乐观积极，时刻保持耐心。
+                                  做事认真负责。</p>
+                              <p>  我能合理的管理自己的时间，听从公司的安排。尽最大努力去完成好自己的任务。</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    
     <div class="layui-row layui-bg-black">  
           <div id="footer-layui-xs3" class="layui-col-xs4">
             <img src="static/image/weichat.png" alt=""/>
